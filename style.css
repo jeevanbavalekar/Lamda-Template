@@ -1,0 +1,161 @@
+header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.logo {
+    width: 5%;
+    float: left;
+}
+
+nav {
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+
+.headesocial {
+    float: left;
+    margin-top: 45px;
+}
+
+.headesocial i {
+    color: #dab33e;
+    margin: 0 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+nav ul li a {
+    font-size: 21px;
+    padding: 45px 10px 45px 5px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+nav ul li :hover {
+    color: black;
+}
+
+#banner {
+    background: url(images/banner.jpg) no-repeat top center;
+    background-size: cover;
+    padding: 220px 0 140px;
+    text-align: center;
+    position: relative;
+}
+
+#banner h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 70px;
+    color: white;
+}
+
+#banner a {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 0 15px;
+    margin-top: 60px;
+    text-decoration: none;
+    background-color: #4c4c4c;
+}
+
+#banner a.table {
+    background: rgba(0, 0, 0, 0.50);
+    border: 1px solid black;
+}
+
+#banner a.menu {
+    background: rgba(0, 0, 0, 0.50);
+    border: 1px solid black;
+}
+
+#banner a:hover {
+    background: #000;
+    border: 1px solid black;
+}
+
+#dish {
+    background: url(images/pattern.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+#dish h2 {
+    margin-top: 60px;
+}
+
+#ingredients {
+    background: url(images/ingridiants.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.backbalck {
+    max-width: 568px;
+    padding: 80px 70px;
+    text-align: center;
+    float: right;
+    width: 100%;
+    background: black
+}
+
+.backbalck h2,
+.backbalck p {
+    color: #fff;
+}
+
+#menu {
+    background: url(images/box.png) repeat center;
+    width: 100%;
+    padding-top: 50px;
+}
+
+#menu article {
+    margin-bottom: 65px;
+}
+
+#menu article h3 {
+    color: #c89f2d;
+    border-bottom: 1px solid #e4d7ab;
+    padding-bottom: 10px;
+}
+
+#menu article p {
+    margin-bottom: 30px;
+    margin-top: 7px;
+    color: #4c4c4c;
+    font-size: 16px;
+}
+
+#menu article div {
+    border: 1px solid #e4d7ab;
+    margin-bottom: 20px;
+    padding: 5px;
+    position: relative;
+}
+
+#menu article div h4 {
+    background: #d7bc70;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: -25px;
+    font-size: 14px;
+    padding: 0 10px;
+}
